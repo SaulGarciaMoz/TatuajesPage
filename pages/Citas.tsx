@@ -57,6 +57,7 @@ const AgendarCitaForm = () => {
       <div>
         <h1 className={styles.imageDown}>Pasos para Agendar una Cita: </h1>
       </div>
+      <div style={{display: "flex", justifyContent: "center", width: "100vw"}}>
       <div className={styles.Pasos}>
         <div
           style={{
@@ -111,6 +112,7 @@ const AgendarCitaForm = () => {
           <p>Escoge el dia y hora de que prefieras</p>
         </div>
 
+      </div>
       </div>
       <br />
       <div className={styles.container}>
