@@ -1,0 +1,45 @@
+/* AgregarTrabajador.module.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .formGroup {
+    margin-bottom: 20px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .buttonContainer {
+    text-align: right;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  

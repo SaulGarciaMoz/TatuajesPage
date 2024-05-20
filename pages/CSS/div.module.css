@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 300px 100px;
+    width: 800;
+}
+
+.text{
+
+    font-size: 25px;
+    line-height: 1.6;
+    font-family: cursive;
+    flex: 1;
+    width: 50px;
+}

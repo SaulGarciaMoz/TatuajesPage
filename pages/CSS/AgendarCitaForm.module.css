@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formWrapper {
+  border: 3px solid #000000;
+  border-radius: 5px;
+  padding: 40px;
+  width: 800px; 
+  background-color: #ffffff;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form label {
+  margin-bottom: 20px;
+}
+
+.form input,
+.form select {
+  padding: 12px;
+  margin-bottom: 25px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.form button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+}
+
+.success-message {
+  color: green;
+}
+
+
+
+ .imageDown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: monospace;
+ }
+  .Pasos{
+    display: flex;
+    left: 400px;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 400px;
+    width: 1500px;
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(0, 0, 0);
+    margin-right: 10px;
+  }
+
+  .Lagenda{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    color: black;
+    left: 72%;
+    font-family:cursive;
+    top: 200px;
+  }
+
+  .LCotizar{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    color: black;
+    left: 9%;
+    font-family:cursive;
+    top: 200px;
+  }
+
+  .Lanticipo{
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    color: black;
+    left: 44%;
+    font-family:cursive;
+    top: 200px;
+  }
+
+  

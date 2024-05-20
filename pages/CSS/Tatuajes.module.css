@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+}
+
+.container > div p {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 10px;
+  margin: 0;
+  transition: transform 0.3s ease;
+  position: relative; 
+}
+
+.Tres {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  padding: 40px 10px;
+}
+
+.Tres > div {
+  margin-right: 60px;
+  transition: transform 0.3s ease;
+}
+
+.Tres > div:last-child {
+  margin-right: 0;
+}
+
+.Tres > div:hover {
+  transform: scale(1.05);
+}
+
+.Tres > div:hover p {
+  transform: translateY(-20px);
+}

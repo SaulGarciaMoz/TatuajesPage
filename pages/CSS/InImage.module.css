@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 30vh;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: Deutsch;
+  color:#000000;
+  backdrop-filter: blur(3px);
+}
+
+@font-face {
+  font-family: 'Deutsch';
+  src: url('../Components/Fonts/OtheGothic-axjg.ttf') format('truetype');
+}
+
+.button {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 15px 30px;
+  cursor: pointer; 
+  transition: background-color 0.3s ease;
+  font-size: x-large;
+  border: none;
+  font-family:monospace;
+  width: 400px;
+}
+
+.button:hover {
+  background-color: #000000;
+  color: white;
+}
+

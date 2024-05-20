@@ -1,0 +1,63 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.clientesList {
+    list-style: none;
+    padding: 0;
+}
+
+.cliente {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: left;
+}
+
+.cliente p {
+    margin: 5px 0;
+    font-size: large;
+    font-family: cursive;
+}
+
+.cliente strong {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Cursive';
+}
+
+.deleteButton {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.deleteButton:hover {
+    background-color: #cc0000;
+}
