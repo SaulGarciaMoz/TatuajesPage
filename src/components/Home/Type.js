@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Portafolio de evidencias",
-          "Actividad de Aprendizaje 7."
+          "Actividad de Aprendizaje 7"
         ],
         autoStart: true,
         loop: true,
