@@ -16,7 +16,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recentqqqqqqqqqqqqqqqqqqqqqq <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
           Todas las actividades vistas hasta la fecha
